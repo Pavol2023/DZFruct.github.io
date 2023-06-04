@@ -53,3 +53,41 @@ function reveal() {
   }
 }
 window.addEventListener("scroll", reveal);
+
+const exampleModal = document.getElementById('Objednavka');
+if (exampleModal) {
+  exampleModal.addEventListener('show.bs.modal', event => {
+    const button = event.relatedTarget;
+    const recipient = button.getAttribute('data-bs-whatever');
+    const price = button.getAttribute('data-bs-price');
+
+    const modalTitle = exampleModal.querySelector('.modal-title');
+    const modalBodyInput = exampleModal.querySelector('#inputFruit'); // Unique ID for input field
+    const modalPrice = exampleModal.querySelector('.modal-body p'); // Unique class for price element
+    const quantityInput = exampleModal.querySelector('#inputQuantity'); // Unique ID for quantity input field
+    const totalPriceElement = exampleModal.querySelector('.modal-body p:last-child'); // Last paragraph for total price
+
+    modalTitle.textContent = recipient;
+    modalBodyInput.value = recipient;
+    modalPrice.textContent = `${price}€/kg`;
+
+    quantityInput.addEventListener('input', () => {
+      const quantity = parseFloat(quantityInput.value);
+      const pricePerKg = parseFloat(price);
+      const totalPrice = quantity * pricePerKg;
+
+      if (!isNaN(totalPrice)) {
+        totalPriceElement.textContent = `${totalPrice.toFixed(2)}€`;
+      } else {
+        totalPriceElement.textContent = '0.00€';
+      }
+    });
+  });
+}
+
+document.getElementById('closeButton').addEventListener('click', function() {
+  document.getElementById('inputQuantity').value = 1; // Reset quantity to 1
+});
+
+
+
