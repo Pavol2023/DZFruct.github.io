@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
-	<title>DZ Fruct</title>
+	<title>Ovocie - 1. trieda</title>
 </head>
-<body class="overflow-x-hidden">
+<body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
@@ -24,10 +24,10 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-md-start justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Domov</a>
+              <a class="nav-link hvr-underline-from-center" aria-current="page" href="index.html">Domov</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Ovocie
               </a>
               <ul class="dropdown-menu dropdown-menu-dark">
@@ -44,9 +44,9 @@
             <li class="nav-item">
               <a class="nav-link hvr-underline-from-center" href="kontakt.html">Kontakt</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-icon hvr-rotate" href="https://www.facebook.com/profile.php?id=100091317579818" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-facebook" viewBox="0 0 16 16">
+            <li class="nav-item hvr-rotate">
+              <a class="nav-link nav-icon" href="https://www.facebook.com/profile.php?id=100091317579818" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" id="fb" class="bi bi-facebook" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
           </svg>
         </a>
@@ -58,169 +58,388 @@
     </div>
   </nav>
 
-  <!--Slideshow-->
-  <div class="container-fluid slideshow">
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img src="apple.jpg" class="d-block w-100" alt="bazen">
-                <div class="carousel-caption d-md-block">
-                    <h1>DZ Fruct</h1>
-                    <h2>Rýchly transport</h2>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="blueberry.jpg" class="d-block w-100" alt="fitko">
-                <div class="carousel-caption d-md-block">
-                  <h1>DZ Fruct</h1>
-                  <h2>Výborná kvalita</h2>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="Cherry.jpg" class="d-block w-100" alt="hokej">
-                <div class="carousel-caption d-md-block">
-                  <h1>DZ Fruct</h1>
-                  <h2>Rýchly transport</h2>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="plum.jpg" class="d-block w-100" alt="futbal">
-                <div class="carousel-caption d-md-block">
-                  <h1>DZ Fruct</h1>
-                  <h2>Rýchly transport</h2>
-                </div>
-            </div>
-            </div>
-          </div>
-          <a href="#content">
-            <button class="sipka col-12">
-                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-            </button>
-          </a>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+  <div class="container mt-5 py-4">
+    <h1>Ovocie 1. triedy</h1>
+    <div class="row content">
+      <div class="col-md-6">
+        <p>
+          Vitajte na našej ohromujúcej podstránke plnej ovocia prvej triedy, kde vám prinášame najvyššiu kvalitu a dokonalosť vo forme šťavnatých plodov. Sme tu, aby sme vás očarili svojou rôznorodosťou a ponúkli vám skutočný zážitok z ovocia.
+        </p>
+        <p>
+          Naša výberová zbierka ovocia pre bežných zákazníkov je zameraná na vysoko kvalitné druhy, ktoré presne vyhovujú vašim potrebám a predstavám. Pri každom plode sme venovali pozornosť každému detailu, aby ste dostali to najlepšie, čo príroda ponúka. Od dokonale zrelých jahôd po sladké a šťavnaté broskyne a hrušky - naše ovocie je vyberané so starostlivosťou a láskou, aby vám prinieslo ten najlepší chuťový zážitok.
+        </p>
+      <p>
+        Naše ovocie prvej triedy je všestranné a ponúka mnoho možností využitia. Môžete ho použiť na prípravu chutných kompótov a džemov, ktoré vás potešia svojou sladkosťou a prírodnou arómou. Okrem toho, s radosťou vám odporúčame okamžitú konzumáciu, aby ste si mohli vychutnať každý kúsok ovocia vo svojej najčistejšej a najprirodzenejšej forme.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <p>
+        Sme presvedčení, že naša kolekcia ovocia prvej triedy vám poskytne nekonečné možnosti objavovania nových chutí a skvelých kombinácií. Či už si vyberiete sladké a šťavnaté jahody na osvieženie svojho letného dňa, alebo si doprajete štipku exotiky s vôňou ananásu, sme tu pre vás, aby sme vám priniesli len to najlepšie.
+      </p>
+  
+      <p>
+        Nenechajte si ujsť túto jedinečnú príležitosť ochutnať ovocie, ktoré je vytvorené s vášňou a starostlivosťou. Navštívte našu podstránku ovocia prvej triedy a objavte nové dimenzie chutí, ktoré vám zabezpečia okamžité potešenie a žiarivé zážitky. Vaše chuťové poháriky vám budú vďačné!
+      </p>
+    </div>
 
-        <div id="content"></div>
+  </div>
 
-        <div class="container-fluid content mt-5 py-4">
-          <div class="container">
-            <h2 class="text-center">Vitajte!</h2>
-            <div class="row mx-auto idk">
-              <img class="col-lg-6 rounded-5 zobrazenie2 d-xl-inline-block d-none img-fluid" src="strawberry.jpg">
-        
-              <div class="col-xl-6 zobrazenie3">
-                <p class="">
-                  Vitajte na našom online obchode, kde s veľkou vášňou a starostlivosťou sa venujeme predaju vysoko kvalitného ovocia! Naša spoločnosť je hrdá na svoj záväzok prinášať vám len to najlepšie zo sveta plodov stromov a kríkov. Sme presvedčení, že zahrnutie ovocia do vášho jedálnička je jedným z najjednoduchších a najúčinnejších spôsobov, ako podporiť zdravý životný štýl a dosiahnuť optimálne blahobyt.
-                </p>
-                <p>
-                  Veríme, že každý kúsok ovocia, ktorý si od nás objednáte, vám prinesie radosť a zároveň podporí váš zdravý životný štýl. Vždy sa usilujeme o to, aby sme vám priniesli nielen vynikajúcu kvalitu, ale aj nezabudnuteľný chuťový zážitok. Pretože sme presvedčení, že zdravé jedlo by nemalo byť kompromisom medzi zdravím a chuťou, ale harmonickým spojením oboch aspektov.
-                </p>
-                <br>
-                <p class="fw-bold ">
-                  <a href="normalneov.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ">Takže neváhajte a prehliadnite našu ponuku vysoko kvalitného ovocia práve teraz!</a>
-                </p>
-            </div>
-            <h2 class="mt-5 py-4 zobrazenie2">Letná brigáda</h2>
-            <div class="row">
-              <div class="col-lg-6 zobrazenie2">
-        
-                  <p class="">
-                    Hľadáme mladých a energických jednotlivcov, ktorí sa radi pustia do práce plnej chutí a čerstvého ovocia. Naša firma sa zameriava na distribúciu vysoko kvalitného ovocia a teraz máme pre vás jedinečnú príležitosť stať sa súčasťou nášho tímu na letnú brigádu.
-                  </p>
-                  <p>
-                    Okrem možnosti získať skúsenosti a zlepšiť svoje pracovné zručnosti, ponúkame vám aj príjemné pracovné prostredie a skvelý kolektív. Budete mať prístup k čerstvému ovociu a môžete si vychutnať jeho výhody priamo na pracovisku.
-                  </p>
-                  <p>
-                    Tak neváhajte a pridajte sa k nášmu letnému tímu! Buďte súčasťou príbehu plného chutí, energie a neodolateľného ovocia. Prijmite výzvu a zažite letnú brigádu, ktorá vám prináša nielen príjem, ale aj radosť a obohatenie. Prihláste sa ešte dnes a spolu stvorme nezabudnuteľné letné zážitky v znamení ovocia!
-                  </p>
-                  <button class="btn btn-success hvr-bob" data-bs-toggle="modal" data-bs-target="#LetnaBrigada">Mám záujem</button>
-            
-      
-            </div>
-            <div class="col-lg-6 zobrazenie3 mt-5 py-4">
-              <table class="table table-bordered border-primary table-info">
-                <tr>
-                  <th class="fw-bold">Práca</th>
-                  <th class="fw-bold">Náplň práce</th>
-                  <th class="fw-bold">Pláca</th>
-              </tr>
-              <tr class="border-primary table-light">
-                <th class="fw-semibold">Nakladač tovaru</th>
-                <td>Nakladanie ovocia do dodávky</td>
-                <td class="fw-semibold">6€/hod</td>
-              </tr>
-              <tr class="border-primary table-light">
-                <th class="fw-semibold">Vykladač tovaru</th>
-                <td>Vykladanie ovocia z dodávky zákazníkom</td>
-                <td class="fw-semibold">6€/hod</td>
-              </tr>
-              </table>
-      
-            </div>
-      
-          </div>
-            
-      
-          </div>
-      
-        </div>
-      </div>
+  <div class="col-lg-12 bg-danger bg-opacity-10 border-start border-danger text-danger border-3">
+    <p class="p-1"><span class="fw-bolder">Vývoz robíme iba v niektorých okresoch v Prešovskom kraji!</span> Ak nebývate v týchto okresoch nemôžeme Vám doručiť ovocie. Viac o našom rozvoze sa môžete naučiť <a href="#" class="link-danger">tu.</a></p>
+  </div>
 
-  <div class="modal fade mt-5 py-4" id="LetnaBrigada" tabindex="-1" aria-labelledby="LetnaBrigadalabel" aria-hidden="true">
+  </div>
+
+
+  <div class="modal fade" id="Objednavka" tabindex="-1" aria-labelledby="ObjednavkaLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content mt-5 py-4 shadow">
+      <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="LetnaBrigadalabel">Letná brigáda</h1>
+          <h1 class="modal-title fs-5" id="ObjednavkaLabel"></h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <form>
-            <div class="row">
-              <div class="col-md-6">
-                <label for="inputName" class="form-label">Meno</label>
-                <input type="text" class="form-control focus-ring focus-ring-info" id="inputName" minlength="5" maxlength="128">
-              </div>
-              <div class="col-md-6">
-                <label for="inputSurname" class="form-label">Priezvisko</label>
-                <input type="text" class="form-control focus-ring focus-ring-info" id="inputSurname" maxlength="128">
-              </div>
-              <div class="col-md-6 mt-2">
-                <label for="inputPhonenumber" class="form-label">Telefónne číslo</label>
-                <input type="text" class="form-control focus-ring focus-ring-info" id="inputPhonenumber" minlength="7">
-              </div>
-              <div class="col-md-6  mt-2">
-                <label for="inputEmail" class="form-label">E-mail</label>
-                <input type="email" class="form-control focus-ring focus-ring-info" id="inputEmail" maxlength="256" placeholder="someone@example.com">
+              <div class="row">
+                  <div class="col-md-12">
+                    <label for="inputFruit" class="form-label">Ovocie</label>
+                    <input type="text" class="form-control" id="inputFruit">
+                  </div>
+                  <div class="col-md-6  mt-2">
+                      <label for="inputName" class="form-label">Meno</label>
+                      <input type="text" class="form-control" id="inputName" minlength="5" maxlength="128" required>
+                    </div>
+                  <div class="col-md-6  mt-2">
+                    <label for="inputSurname" class="form-label">Priezvisko</label>
+                    <input type="text" class="form-control" id="inputSurname" minlength="5" maxlength="128" required>
+                  </div>
+                  <div class="col-md-6  mt-2">
+                    <label for="inputPhonenumber" class="form-label">Telefónne číslo</label>
+                    <input type="text" class="form-control" id="inputPhonenumber" minlength="7">
+                  </div>
+                  <div class="col-md-6  mt-2">
+                    <label for="inputEmail" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="someone@example" maxlength="256" required>
+    
+                  </div>
 
-              </div>
-              <div class="col-md-6  mt-2">
-                <label for="inputState" class="form-label">Práca</label>
-                <select id="inputState" class="form-select focus-ring focus-ring-info">
-                  <option selected>Nakladač</option>
-                  <option>Vykladač </option>
-                </select>
+                  <div class="col-12 mt-2">
+                    <label for="inputAddress" class="form-label">Adresa</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Hlavná 3">
+                  </div>
+                  <div class="col-md-8 mt-2">
+                    <label for="inputCity" class="form-label">Mesto</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Sabinov">
+                  </div>
 
+                  <div class="col-md-4 mt-2">
+                    <label for="inputState" class="form-label">Okres</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Sabinov</option>
+                      <option>Prešov </option>
+                      <option>Bardejov</option>
+                      <option>Levoča</option>
+                    </select>
+                  </div>
+                  
+                  <div class="col-md-6  mt-2">
+                    <label for="inputQuantity" class="form-label">Množstvo v kg</label>
+                    <input type="number" class="form-control" id="inputQuantity" value="1" min="1">
+              
+    
+                  </div>
+                  <div class="col-md-6  mt-2">
+                      <h6>Cena:</h6>
+                      <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold d-inline"><span id="totalPrice">0.00€</span></p>
+                    </div>
               </div>
-          </div>
-            <div class="mt-2 d-flex float-end">
-              <button type="submit" class="btn btn-success focus-ring focus-ring-success">Odoslať</button>
-            </div>
           </form>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeButton1">Close</button>
+          <button type="submit" class="btn btn-danger">Odoslať objednávku</button>
+        </div>        
       </div>
     </div>
   </div>
+  
+  <div class="container mt-5 py-4">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-12">
+                <img src="apple.jpg" class="img-fluid rounded-start card-image" alt="jablka">
+                <div class="card-body">
+                  <h5 class="card-title">Jablká</h5>
+                  <p class="card-text">Niečo o jablkách</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                    <button type="button" class="btn btn-outline-danger hvr-bob" data-bs-toggle="modal" data-bs-target="#Objednavka" data-bs-whatever="Jablká" data-bs-price="2.99">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg> Kúpiť
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-12">
+                <img src="blueberry.jpg" class="img-fluid rounded-start card-image" alt="jablka">
+                <div class="card-body">
+                  <h5 class="card-title">Čučoriedky</h5>
+                  <p class="card-text">Niečo o čučoriedkách</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">4€/kg</p>
+                    <button type="button" class="btn btn-outline-danger hvr-bob" data-bs-toggle="modal" data-bs-target="#Objednavka" data-bs-whatever="Čučoriedky" data-bs-price="4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg> Kúpiť
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-12">
+                <img src="Cherry.jpg" class="img-fluid rounded-start card-image" alt="jablka">
+                <div class="card-body">
+                  <h5 class="card-title">Čerešne</h5>
+                  <p class="card-text">Niečo o jablkách</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold" >2.50€/kg</p>
+                    <button type="button" class="btn btn-outline-danger hvr-bob" data-bs-toggle="modal" data-bs-target="#Objednavka" data-bs-whatever="Čerešne" data-bs-price="2.50">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg> Kúpiť
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+            <div class="row g-0 ">
+              <div class="col-md-12">
+                <img src="plum.jpg" class="img-fluid rounded-start card-image" alt="jablka">
+                <div class="card-body">
+                  <h5 class="card-title">Slivky</h5>
+                  <p class="card-text">Niečo o jablkách</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">1.50/kg</p>
+                    <button type="button" class="btn btn-outline-danger hvr-bob" data-bs-toggle="modal" data-bs-target="#Objednavka" data-bs-whatever="Slivky" data-bs-price="1.50">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg> Kúpiť
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
 
-
+  <div class="container zobrazenie">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+              <div class="card-body">
+                <h5 class="card-title">Jablká</h5>
+                <p class="card-text">Niečo o jablkách</p>
+                <div class="d-flex justify-content-between">
+                  <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                  <button type="button" class="btn btn-outline-danger hvr-bob">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg> Kúpiť
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-12">
+                <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+                <div class="card-body">
+                  <h5 class="card-title">Jablká</h5>
+                  <p class="card-text">Niečo o jablkách</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                    <button type="button" class="btn btn-outline-danger hvr-bob">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg> Kúpiť
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+          <div class="col-md-6 col-lg-3">
+            <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-12">
+                  <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+                  <div class="card-body">
+                    <h5 class="card-title">Jablká</h5>
+                    <p class="card-text">Niečo o jablkách</p>
+                    <div class="d-flex justify-content-between">
+                      <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                      <button type="button" class="btn btn-outline-danger hvr-bob">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg> Kúpiť
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+            <div class="col-md-6 col-lg-3">
+              <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+                    <div class="card-body">
+                      <h5 class="card-title">Jablká</h5>
+                      <p class="card-text">Niečo o jablkách</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                        <button type="button" class="btn btn-outline-danger hvr-bob">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                          </svg> Kúpiť
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+  </div>
+  
+  <div class="container zobrazenie">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+              <div class="card-body">
+                <h5 class="card-title">Jablká</h5>
+                <p class="card-text">Niečo o jablkách</p>
+                <div class="d-flex justify-content-between">
+                  <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                  <button type="button" class="btn btn-outline-danger hvr-bob">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg> Kúpiť
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-12">
+                <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+                <div class="card-body">
+                  <h5 class="card-title">Jablká</h5>
+                  <p class="card-text">Niečo o jablkách</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                    <button type="button" class="btn btn-outline-danger hvr-bob">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg> Kúpiť
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+          <div class="col-md-6 col-lg-3">
+            <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-12">
+                  <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+                  <div class="card-body">
+                    <h5 class="card-title">Jablká</h5>
+                    <p class="card-text">Niečo o jablkách</p>
+                    <div class="d-flex justify-content-between">
+                      <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                      <button type="button" class="btn btn-outline-danger hvr-bob">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg> Kúpiť
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+            <div class="col-md-6 col-lg-3">
+              <div class="card mb-3 hvr-grow" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+                    <div class="card-body">
+                      <h5 class="card-title">Jablká</h5>
+                      <p class="card-text">Niečo o jablkách</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
+                        <button type="button" class="btn btn-outline-danger hvr-bob">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                          </svg> Kúpiť
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+  </div>
 
   <footer class="bg-dark text-white pt-5 pb-4 footer mt-5 py-4">
     <div class="container text-center text-md-left">
@@ -260,7 +479,7 @@
         </div>
         <div class="col-12 align-items-center mb-4">
           <a class="facebook-container-2" href="https://www.facebook.com/profile.php?id=100091317579818" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-facebook footer-icon" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" id="fb" class="bi bi-facebook footer-icon" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
           </svg>
           </a>
@@ -278,7 +497,8 @@
     </div>
 
   </footer>
-
+  
+  
   <script src="javascript.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
