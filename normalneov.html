@@ -103,23 +103,23 @@
               <div class="row">
                   <div class="col-md-12">
                     <label for="inputFruit" class="form-label">Ovocie</label>
-                    <input type="text" class="form-control" id="inputFruit">
+                    <input type="text" class="form-control" id="inputFruit" readonly>
                   </div>
                   <div class="col-md-6  mt-2">
                       <label for="inputName" class="form-label">Meno</label>
-                      <input type="text" class="form-control" id="inputName">
+                      <input type="text" class="form-control" id="inputName" minlength="5" maxlength="128" required>
                     </div>
                   <div class="col-md-6  mt-2">
                     <label for="inputSurname" class="form-label">Priezvisko</label>
-                    <input type="text" class="form-control" id="inputSurname">
+                    <input type="text" class="form-control" id="inputSurname" minlength="5" maxlength="128" required>
                   </div>
                   <div class="col-md-6  mt-2">
                     <label for="inputPhonenumber" class="form-label">Telefónne číslo</label>
-                    <input type="text" class="form-control" id="inputPhonenumber">
+                    <input type="text" class="form-control" id="inputPhonenumber" minlength="7">
                   </div>
                   <div class="col-md-6  mt-2">
                     <label for="inputEmail" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="inputSurname" placeholder="someone@example">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="someone@example" maxlength="256" required>
     
                   </div>
 
@@ -156,8 +156,8 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeButton">Close</button>
-          <button type="button" class="btn btn-danger">Odoslať objednávku</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeButton1">Close</button>
+          <button type="submit" class="btn btn-danger">Odoslať objednávku</button>
         </div>        
       </div>
     </div>
@@ -216,7 +216,7 @@
                 <img src="Cherry.jpg" class="img-fluid rounded-start card-image" alt="jablka">
                 <div class="card-body">
                   <h5 class="card-title">Čerešne</h5>
-                  <p class="card-text">Niečo o jablkách</p>
+                  <p class="card-text">Niečo o čerešniach</p>
                   <div class="d-flex justify-content-between">
                     <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold" >2.50€/kg</p>
                     <button type="button" class="btn btn-outline-danger hvr-bob" data-bs-toggle="modal" data-bs-target="#Objednavka" data-bs-whatever="Čerešne" data-bs-price="2.50">
@@ -238,7 +238,7 @@
                 <img src="plum.jpg" class="img-fluid rounded-start card-image" alt="jablka">
                 <div class="card-body">
                   <h5 class="card-title">Slivky</h5>
-                  <p class="card-text">Niečo o jablkách</p>
+                  <p class="card-text">Niečo o slivkách</p>
                   <div class="d-flex justify-content-between">
                     <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">1.50/kg</p>
                     <button type="button" class="btn btn-outline-danger hvr-bob" data-bs-toggle="modal" data-bs-target="#Objednavka" data-bs-whatever="Slivky" data-bs-price="1.50">
@@ -263,13 +263,13 @@
         <div class="card mb-3 hvr-grow" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-12">
-              <img src="apple.jpg" class="img-fluid rounded-start" alt="jablka">
+              <img src="strawberry.jpg" class="img-fluid rounded-start" alt="jablka">
               <div class="card-body">
-                <h5 class="card-title">Jablká</h5>
-                <p class="card-text">Niečo o jablkách</p>
+                <h5 class="card-title">Jahody</h5>
+                <p class="card-text">Niečo o jahodách</p>
                 <div class="d-flex justify-content-between">
-                  <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">2.99€/kg</p>
-                  <button type="button" class="btn btn-outline-danger hvr-bob">
+                  <p class="bg-warning bg-opacity-10 border border-warning rounded fw-semibold">1.50€/kg</p>
+                  <button type="button" class="btn btn-outline-danger hvr-bob" data-bs-toggle="modal" data-bs-target="#Objednavka" data-bs-whatever="Jahody" data-bs-price="1.50">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
                       <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                     </svg> Kúpiť
