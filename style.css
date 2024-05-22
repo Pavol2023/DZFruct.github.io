@@ -9,6 +9,9 @@ p{
   font-family: 'Geologica', sans-serif;
 }
 
+.navbar {
+    width: 100vw;
+}
 .navbar-nav li:last-child {
   margin-left: auto;
 }
@@ -19,6 +22,8 @@ p{
 
 /*carousel*/
 .slideshow {
+  width: 100vw;
+  overflow-x: hidden;
   overflow-y: hidden;
   padding: 0px;
   margin: 0px;
@@ -26,6 +31,7 @@ p{
 }
 .carousel-item img{
   height: 100vh;
+  width: 100vw;
   object-fit: cover;
   opacity: 0.8;
 }
@@ -373,10 +379,12 @@ p{
   transform: translateX(150px);
   opacity: 0;
   transition: 1s all ease;
+  overflow-x: hidden;
 }
 .zobrazenie3.active3 {
   transform: translateX(0);
   opacity: 1;
+  overflow-x: hidden;
 }
 
 /*zdola*/
